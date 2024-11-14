@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type="text/css" href='styles.css'>
+    <title>COMP3353 Assignment 3</title>
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Tik Tac Toe for Fun</h1>
+            <div class="score">
+                <h2>Score - 
+                    <span class="big">O</span>: 0 
+                    <span class="big">X</span>: 0
+                </h2>
+            </div>
+        </header>
+        <div class="board-pieces">
+            <div class="pieces">
+                <img id=nought src="nought.png" draggable="true">
+                <img id=cross src="cross.png" draggable="true">
+            </div>
+            <div class="board">
+                <div class="cell" id="cell0"></div>
+                <div class="cell" id="cell1"></div>
+                <div class="cell" id="cell2"></div>
+                <div class="cell" id="cell3"></div>
+                <div class="cell" id="cell4"></div>
+                <div class="cell" id="cell5"></div>
+                <div class="cell" id="cell6"></div>
+                <div class="cell" id="cell7"></div>
+                <div class="cell" id="cell8"></div>
+            </div>
+        </div>
+        <div class="ending">
+            <div id="remark"></div>
+            <button id="restart">Restart</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
